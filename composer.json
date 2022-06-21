@@ -1,0 +1,40 @@
+{
+  "name": "apiopenstudio/transport_google_cloud",
+  "description": "Transport for ApiOpenStudio output to Google Cloud bucket.",
+  "keywords": [
+    "apiopenstudio",
+    "api",
+    "transport",
+    "filesystem",
+    "storage",
+    "flysystem",
+    "file",
+    "google-cloud",
+    "google",
+    "cloud"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "require": {
+    "league/flysystem-google-cloud-storage": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiOpenStudio\\Plugins\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "John Avery",
+      "homepage": "https://gitlab.com/john89"
+    }
+  ],
+  "minimum-stability": "dev",
+  "support": {
+    "email": "contact@apiopenstudio.com",
+    "issues": "https://gitlab.com/apiopenstudio/plugins/transport_google_cloud/-/issues",
+    "forum": "https://www.apiopenstudio.com/questions-answers/",
+    "wiki": "https://wiki.apiopenstudio.com/",
+    "source": "https://gitlab.com/apiopenstudio/plugins/transport_google_cloud"
+  }
+}
